@@ -1,0 +1,37 @@
+ 
+::>>Database Schema>>::
+
+
+ BooksTable:
+
+insert into books(name,author,price,category) values('Springbootcicd','Johnston',900,'computer');
+insert into books(name,author,price,category) values('Kitchen story','Tara',300,'Lifestyle');
+insert into books(name,author,price,category) values('Roman History','seeta verma',900,'History');
+insert into books(name,author,price,category) values('Way of Success','Ritesh Verma',860,'Pyschology');
+insert into books(name,author,price,category) values('Host of Night','Kamla Singh',300,'Horror');
+insert into books(name,author,price,category) values('Life of jeseus','Geeta singh',600,'Religious');
+insert into books(name,author,price,category) values('Principle of physics','Maneesh singh',400,'Study');
+
+
+Review Table
+
+insert into review(name,bookname,rating,review) values('Tanya','Roman History',4,'average');
+insert into review(name,bookname,rating,review) values('Rahul','Kitchen story',5,'inspiring');
+insert into review(name,bookname,rating,review) values('Ratey','Springbootcicd',3,'good');
+insert into review(name,bookname,rating,review) values('Muskaan','Way of Success',5,'very good story');
+insert into review(name,bookname,rating,review) values('Raman','Springbootcicd',5,'good');
+insert into review(name,bookname,rating,review) values('Puneet','Life of jeseus',3,'very good');
+insert into review(name,bookname,rating,review) values('Mohit','Principle of physics',2,'not relatable');
+
+
+User Table:
+
+insert into user_details(firstname,lastname,email,password,phone,address) values( 'Akansha','Kirola','Akan@gmail.com','akan123',3939371,'Nagpur');
+insert into user_details(firstname,lastname,email,password,phone,address) values('Vineet','Verma','vk@gmail.com','vk9922',3939393,'Nagaland');
+insert into user_details(firstname,lastname,email,password,phone,address) values('Aman','Sharma','amanv@gmail.com','aman1234',39390302,'Goa');
+insert into user_details(firstname,lastname,email,password,phone,address) values('Geeta','Singh','geeta@gmail.com','geeta123',922821389,'Rajasthan');
+insert into user_details(firstname,lastname,email,password,phone,address) values('Sai','Ganesha','sai@gmail.com','sa123',1234848491,'karnatka');
+insert into user_details(firstname,lastname,email,password,phone,address) values('Lokesh','verma','lokess@gmail.com','l123',98748484,'UP');
+insert into user_details(firstname,lastname,email,password,phone,address) values('Abhinav','Kumar','abhi23@gmail.com','abh123',14444691,'MP');
+
+
